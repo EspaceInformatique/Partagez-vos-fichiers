@@ -18,6 +18,7 @@ document.getElementById('generateCode').addEventListener('click', async () => {
         document.getElementById('codeDisplay').textContent = `Code de partage : ${data.code}`;
     } catch (error) {
         console.error('Erreur lors de l\'envoi du fichier :', error);
+        alert('Une erreur est survenue lors de l\'envoi du fichier.');
     }
 });
 
